@@ -1,0 +1,88 @@
+# CareerBridge AI v2 - Maroc Edition
+# requirements.txt
+
+# Core IA & Agents
+crewai>=0.70.0
+crewai-tools>=0.15.0
+openai>=1.55.0
+langchain-ollama>=0.1.0
+
+# LangChain & RAG
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-ollama>=0.1.0
+langchain-google-genai>=2.0.0
+langchain-groq>=0.2.0
+langchain-deepseek>=0.1.0
+langchain-huggingface>=0.0.1
+langchain-chroma>=0.1.0
+
+# Vector Stores
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# Multimodal
+pytesseract>=0.3.0
+Pillow>=10.0.0
+speechrecognition>=3.10.0
+pydub>=0.25.0
+
+# Frontend
+streamlit>=1.40.0
+plotly>=5.24.0
+
+# Utils
+python-dotenv>=1.0.0
+requests>=2.31.0
+tavily-python>=0.5.0
+
+# Keras/TensorFlow
+tensorflow>=2.15.0
+
+# PyTorch (pour sentence-transformers et autres)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── PDF Processing ────────────────────────────────────
+pypdf>=5.0.0
+pypdf2>=3.0.0
+
+# ── Interface & Visualisation ─────────────────────────
+streamlit>=1.40.0
+plotly>=5.24.0
+
+# ── Multimodal : Audio (Speech-to-Text) ───────────────
+SpeechRecognition>=3.10.0
+openai-whisper>=20231117       # Pour transcription Darija hors-ligne
+pyaudio>=0.2.14                # Microphone input (optionnel)
+
+# ── Multimodal : Vision (OCR Bulletin) ────────────────
+Pillow>=10.0.0
+pytesseract>=0.3.10            # Nécessite Tesseract installé sur le système
+
+# ── Web Search ────────────────────────────────────────
+duckduckgo-search>=6.0.0       # Gratuit, sans clé API
+tavily-python>=0.3.0           # Optionnel, meilleure qualité
+
+# ── Utilitaires ───────────────────────────────────────
+python-dotenv>=1.0.0
+pydantic>=2.9.0
+tiktoken>=0.8.0
+requests>=2.31.0
+
+# ─────────────────────────────────────────────────────
+# NOTES D'INSTALLATION SYSTÈME :
+#
+# Pour pytesseract (OCR bulletin) :
+#   Ubuntu/Debian : sudo apt-get install tesseract-ocr tesseract-ocr-fra tesseract-ocr-ara
+#   macOS         : brew install tesseract tesseract-lang
+#   Windows       : https://github.com/UB-Mannheim/tesseract/wiki
+#
+# Pour pyaudio (microphone) :
+#   Ubuntu/Debian : sudo apt-get install portaudio19-dev python3-pyaudio
+#   macOS         : brew install portaudio && pip install pyaudio
+#
+# openai-whisper nécessite : pip install torch (peut être lourd ~2GB)
+# Alternative légère : utiliser uniquement SpeechRecognition (Google API)
+# ─────────────────────────────────────────────────────

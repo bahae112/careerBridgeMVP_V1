@@ -1,0 +1,200 @@
+{
+  "domains": {
+    "informatique_ia": {
+      "label": "Informatique & Intelligence Artificielle",
+      "label_darija": "Informatique w IA",
+      "saturation_index": 2,
+      "market_demand": 9.5,
+      "growth_rate": 9.2,
+      "employability": 9.4,
+      "salary_mad": {
+        "junior": "8000–14000 MAD/mois",
+        "senior": "22000–45000 MAD/mois",
+        "freelance": "15000–60000 MAD/mois",
+        "average_annual": 180000
+      },
+      "moroccan_schools": [
+        {"name": "UM6P – Mohammed VI Polytechnic University", "city": "Ben Guerir", "program": "Computer Science & AI", "duration": "3 ans", "tuition": "Bourse disponible"},
+        {"name": "EHTP – École Hassania des Travaux Publics", "city": "Casablanca", "program": "Génie Informatique", "duration": "3 ans cycle ingénieur", "tuition": "Publique"},
+        {"name": "INPT – Institut National des Postes et Télécommunications", "city": "Rabat", "program": "Ingénierie Réseaux & IA", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "ENSET Mohammedia", "city": "Mohammedia", "program": "Génie Informatique", "duration": "2 ans", "tuition": "Publique"},
+        {"name": "FST – Faculté des Sciences et Techniques", "city": "Fès / Marrakech", "program": "Licence Informatique", "duration": "3 ans", "tuition": "Publique"}
+      ],
+      "top_employers": ["OCP Group", "Capgemini Maroc", "IBM Maroc", "CGI Maroc", "Orange Maroc", "CIH Bank Tech"],
+      "key_skills": ["python", "machine learning", "deep learning", "cloud aws/azure", "data engineering"],
+      "certifications": ["AWS Certified", "Google TensorFlow Developer", "Microsoft Azure AI"],
+      "growth_description": "Le Maroc Digital 2030 prévoit 200 000 emplois tech. IA en tête.",
+      "is_saturated": false,
+      "rejection_reason": null
+    },
+    "data_science": {
+      "label": "Data Science & Big Data",
+      "label_darija": "Data Science",
+      "saturation_index": 3,
+      "market_demand": 9.0,
+      "growth_rate": 9.5,
+      "employability": 9.0,
+      "salary_mad": {
+        "junior": "7000–12000 MAD/mois",
+        "senior": "18000–38000 MAD/mois",
+        "freelance": "12000–50000 MAD/mois",
+        "average_annual": 150000
+      },
+      "moroccan_schools": [
+        {"name": "UM6P Data Science Institute", "city": "Ben Guerir", "program": "MSc Data Science", "duration": "2 ans", "tuition": "Partielle"},
+        {"name": "ENSIAS", "city": "Rabat", "program": "Ingénierie Data", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "UIR – Université Internationale de Rabat", "city": "Rabat", "program": "Big Data Analytics", "duration": "2 ans Master", "tuition": "Privée ~45 000 MAD/an"}
+      ],
+      "top_employers": ["Attijariwafa Bank", "BMCE Bank", "Maroc Telecom", "OCP Analytics", "Disruptive Labs"],
+      "key_skills": ["python", "r", "sql", "spark", "tableau", "power bi"],
+      "growth_description": "+35% de postes Data ouverts au Maroc depuis 2022.",
+      "is_saturated": false,
+      "rejection_reason": null
+    },
+    "genie_civil": {
+      "label": "Génie Civil & BTP",
+      "label_darija": "Génie Civil",
+      "saturation_index": 7,
+      "market_demand": 5.5,
+      "growth_rate": 4.0,
+      "employability": 5.5,
+      "salary_mad": {
+        "junior": "5000–9000 MAD/mois",
+        "senior": "12000–22000 MAD/mois",
+        "freelance": "8000–25000 MAD/mois",
+        "average_annual": 96000
+      },
+      "moroccan_schools": [
+        {"name": "EHTP", "city": "Casablanca", "program": "Génie Civil", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "EHP – École des Hautes Études de Polytechnique", "city": "Rabat", "program": "BTP", "duration": "3 ans", "tuition": "Privée"},
+        {"name": "EMI – École Mohammadia d'Ingénieurs", "city": "Rabat", "program": "Génie Civil", "duration": "3 ans", "tuition": "Publique"}
+      ],
+      "top_employers": ["Vinci Maroc", "Bouygues Maroc", "ONCF", "ADM", "Al Omrane"],
+      "key_skills": ["autocad", "revit", "gestion de chantier", "béton armé", "BIM"],
+      "growth_description": "Marché en ralentissement post-boom immobilier. Saturation notable.",
+      "is_saturated": true,
+      "rejection_reason": "Index de saturation élevé (7/10). Offres stagnantes depuis 2021. Recommandé uniquement si passion forte ou spécialisation BIM/durable."
+    },
+    "medecine": {
+      "label": "Médecine & Sciences de la Santé",
+      "label_darija": "Tib w Saha",
+      "saturation_index": 4,
+      "market_demand": 9.2,
+      "growth_rate": 7.5,
+      "employability": 9.5,
+      "salary_mad": {
+        "junior": "8000–15000 MAD/mois",
+        "senior": "25000–80000 MAD/mois",
+        "freelance": "20000–120000 MAD/mois",
+        "average_annual": 240000
+      },
+      "moroccan_schools": [
+        {"name": "Faculté de Médecine de Casablanca (FMPC)", "city": "Casablanca", "program": "Doctorat en Médecine", "duration": "7 ans", "tuition": "Publique"},
+        {"name": "Faculté de Médecine de Rabat", "city": "Rabat", "program": "Médecine / Pharmacie", "duration": "7 ans", "tuition": "Publique"},
+        {"name": "UM6SS – Université Mohammed VI des Sciences de la Santé", "city": "Casablanca", "program": "Médecine", "duration": "7 ans", "tuition": "Semi-publique"},
+        {"name": "ISPITS", "city": "Rabat / Fès", "program": "Infirmier / Sage-femme", "duration": "3 ans", "tuition": "Publique"}
+      ],
+      "top_employers": ["CHU Ibn Rochd", "Clinique Internationale", "Aga Khan Hospital", "Médecins Sans Frontières", "Secteur privé"],
+      "key_skills": ["diagnostic clinique", "urgences", "chirurgie", "pédiatrie", "pharmacologie"],
+      "growth_description": "Déficit médecin/habitant au Maroc : 0.7 pour 1000. Besoin énorme.",
+      "is_saturated": false,
+      "rejection_reason": null
+    },
+    "finance_banque": {
+      "label": "Finance, Banque & FinTech",
+      "label_darija": "Finance w Banques",
+      "saturation_index": 6,
+      "market_demand": 6.5,
+      "growth_rate": 6.8,
+      "employability": 7.0,
+      "salary_mad": {
+        "junior": "6000–11000 MAD/mois",
+        "senior": "15000–35000 MAD/mois",
+        "freelance": "10000–40000 MAD/mois",
+        "average_annual": 132000
+      },
+      "moroccan_schools": [
+        {"name": "ISCAE – Institut Supérieur de Commerce", "city": "Casablanca", "program": "Finance & Audit", "duration": "2 ans Master", "tuition": "Publique"},
+        {"name": "Université Hassan II – FSJES", "city": "Casablanca", "program": "Sciences Économiques", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "HEM Business School", "city": "Casablanca / Rabat / Fès", "program": "Finance d'Entreprise", "duration": "3 ans", "tuition": "Privée ~50 000 MAD/an"},
+        {"name": "UIR – Ecole de Commerce", "city": "Rabat", "program": "Finance Internationale", "duration": "5 ans", "tuition": "Privée"}
+      ],
+      "top_employers": ["Attijariwafa Bank", "CIH Bank", "BCP", "BMCE", "CDG", "Société Générale Maroc"],
+      "key_skills": ["analyse financière", "excel avancé", "bloomberg", "audit", "risque crédit"],
+      "growth_description": "Secteur modérément saturé. La FinTech ouvre de nouvelles opportunités.",
+      "is_saturated": false,
+      "rejection_reason": "Saturation modérée (6/10). Privilégier la spécialisation FinTech ou Green Finance."
+    },
+    "energies_renouvelables": {
+      "label": "Énergies Renouvelables & Environnement",
+      "label_darija": "Energies Renouvelables",
+      "saturation_index": 2,
+      "market_demand": 9.0,
+      "growth_rate": 9.8,
+      "employability": 8.5,
+      "salary_mad": {
+        "junior": "7000–13000 MAD/mois",
+        "senior": "18000–40000 MAD/mois",
+        "freelance": "15000–55000 MAD/mois",
+        "average_annual": 156000
+      },
+      "moroccan_schools": [
+        {"name": "UM6P – Energie & Environnement", "city": "Ben Guerir", "program": "MSc Sustainable Energy", "duration": "2 ans", "tuition": "Bourse disponible"},
+        {"name": "EHTP – Génie de l'Eau et Environnement", "city": "Casablanca", "program": "Génie Environnemental", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "Faculté des Sciences – Master EnR", "city": "Rabat / Agadir", "program": "Énergies Renouvelables", "duration": "2 ans", "tuition": "Publique"}
+      ],
+      "top_employers": ["MASEN", "ONEE", "Nareva", "Siemens Gamesa Maroc", "EDF Renouvelables Maroc"],
+      "key_skills": ["solaire PV", "éolien", "efficacité énergétique", "audit énergétique", "MATLAB"],
+      "growth_description": "Maroc : 52% d'énergie renouvelable d'ici 2030. NOOR, Tarfaya en expansion.",
+      "is_saturated": false,
+      "rejection_reason": null
+    },
+    "tourisme_hotellerie": {
+      "label": "Tourisme & Hôtellerie",
+      "label_darija": "Siyaha w Funduk",
+      "saturation_index": 8,
+      "market_demand": 5.0,
+      "growth_rate": 5.5,
+      "employability": 5.0,
+      "salary_mad": {
+        "junior": "3500–6000 MAD/mois",
+        "senior": "8000–18000 MAD/mois",
+        "freelance": "5000–20000 MAD/mois",
+        "average_annual": 72000
+      },
+      "moroccan_schools": [
+        {"name": "ISITT – Institut de Formation Touristique", "city": "Tanger / Marrakech", "program": "Management Hôtelier", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "ENHT", "city": "Rabat", "program": "Gestion Hôtelière", "duration": "2 ans BTS", "tuition": "Publique"}
+      ],
+      "top_employers": ["Marriott Maroc", "Accor Hotels", "Club Med", "ONMT", "Riad & riads privés"],
+      "key_skills": ["gestion hôtelière", "langues étrangères", "relation client", "revenue management"],
+      "growth_description": "Secteur volatil post-COVID. Reprise en cours mais emplois précaires.",
+      "is_saturated": true,
+      "rejection_reason": "Saturation très élevée (8/10). Salaires bas, forte précarité. Déconseillé sauf passion ou niche luxe/eco-tourisme."
+    },
+    "agriculture_agritech": {
+      "label": "Agriculture & AgriTech",
+      "label_darija": "Fellaha w AgriTech",
+      "saturation_index": 2,
+      "market_demand": 8.5,
+      "growth_rate": 8.8,
+      "employability": 8.0,
+      "salary_mad": {
+        "junior": "6000–10000 MAD/mois",
+        "senior": "15000–30000 MAD/mois",
+        "freelance": "10000–40000 MAD/mois",
+        "average_annual": 120000
+      },
+      "moroccan_schools": [
+        {"name": "IAV Hassan II – Institut Agronomique", "city": "Rabat", "program": "Ingénieur Agronome", "duration": "5 ans", "tuition": "Publique"},
+        {"name": "ENA Meknès", "city": "Meknès", "program": "Ingénierie Agricole", "duration": "3 ans", "tuition": "Publique"},
+        {"name": "UM6P – AgriTech & Food", "city": "Ben Guerir", "program": "AgriTech Innovation", "duration": "2 ans MSc", "tuition": "Partielle"}
+      ],
+      "top_employers": ["OCP Solutions Agricoles", "Cosumar", "Copag", "Les Domaines Agricoles", "startups AgriTech"],
+      "key_skills": ["agronomie", "irrigation", "drone agricole", "analyse sol", "supply chain alimentaire"],
+      "growth_description": "Plan Maroc Vert II + AgriTech : +40% postes d'ici 2028. Sous-exploité.",
+      "is_saturated": false,
+      "rejection_reason": null
+    }
+  }
+}

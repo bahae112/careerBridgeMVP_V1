@@ -1,0 +1,43 @@
+{
+  "greetings": {
+    "opening": "Marhba bik! 🌟 CareerBridge AI ghadi ysa3dek t9da lmoussira dyalek.",
+    "family_message": "Lwalidine l-kram, had lbramij mbniya 3la waqe3 suq l-khidma f-lmaghrib. Ghadi nkounouwa m3akom khatwa khatwa.",
+    "encouragement": "Mabrouk 3la had lkhtar! L-mostaqbal dyalek mazal f-yadik."
+  },
+  "domain_intros": {
+    "informatique_ia": "IA w Informatique hia lmida9 dial lmostaqbal! F-lmaghrib, had lqita3 kankhdem b-zouj ydih.",
+    "data_science": "Data Science, makaynsh 7ad kaydfa3 bla data. Nta gh9adi tkoun lmouti3 dial had lmaghrib.",
+    "medecine": "Tib howa lkhidma l-insaniya par excellence. Lmaghrib mhdag l-atibba bzzaf.",
+    "energies_renouvelables": "Lmaghrib ghadi ikoun 52% energie renouvelable 2030. Had lqita3 kay7tag l-nas zin 3liha.",
+    "agriculture_agritech": "Fellaha moderniya m3a technologia - Plan Maroc Vert II kayfta7 bab kebir.",
+    "finance_banque": "Finance w FinTech - l-banks dyalna kayt7awlu. FinTech hia lfursa.",
+    "genie_civil": "Génie Civil mazal m7tag minu. Walakin khas t-specialise f-BIM aw construction durable.",
+    "tourisme_hotellerie": "Siyaha katrja3 walakin khas t-specialise f-luxe aw eco-tourisme."
+  },
+  "motivational_phrases": [
+    "Kul nhar tatqaddam khatwa zgira, ghadi twsel l-lbaid.",
+    "L-mostaqbal dyalek mashi maktub - nta lli ghadi taktbu.",
+    "F-lmaghrib dyal had lqarn, li 3anduhu l-3ilm 3anduhu l-quwwa.",
+    "L-echec mashi nihaya - hiya dars kayzid-lak l-khibra.",
+    "Sber 3la t3alum, l-jaza kay-ji m3a l-waqt."
+  ],
+  "plan_b_messages": {
+    "intro": "Ila ma-9dirsh tda9oul lmadrasa lli bghiti, kayn plan B - machi nihaya!",
+    "online_learning": "Coursera, edX, YouTube - 3andek data scientist Moroccan lli t3allam b-l-baraka w daba kankhdem f-Google.",
+    "bootcamp": "Coding bootcamps f-Casablanca w Rabat - 6 shhar w katlqa khidma.",
+    "entrepreneurship": "Startup f-lmaghrib - Maroc Startup Act kaysa3d.",
+    "encouragement": "L-muhim mashi win dkhoul, l-muhim wacha ta3llam w wachno kadir biha."
+  },
+  "rejection_soften": {
+    "saturated_domain": "Smahli nqoulek l-haqiqa bsa7a - had lqita3 fih bzzaf d-lkhrejin. Walakin kayn plan B mizyan.",
+    "low_salary": "L-ma3ash mashi ghali bzzaf, walakin ila 3andek passion w skills, ghadi tatqaddam.",
+    "long_studies": "7 snin medecine - kabira, walakin l-jaza kabir. Wdak l-waqt kaymchi b-sur3a."
+  },
+  "school_specific": {
+    "UM6P": "UM6P f-Ben Guerir - université dial lmostaqbal. Bursa mawjuda l-lmoti9in.",
+    "EHTP": "EHTP f-Casablanca - wa7da men a7san lcoles d-ingenierie f-lmaghrib w lmaghrib l-arabi.",
+    "ENSET": "ENSET Mohammedia - publique w 3andha ism mezyan f-suq l-khidma.",
+    "IAV": "IAV Hassan II - qimma d-ingenierie zira3iya f-lmaghrib.",
+    "FMPC": "Faculte de Medecine Casablanca - khrejat a7san atibba f-lmaghrib."
+  }
+}

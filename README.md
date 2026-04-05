@@ -193,9 +193,9 @@ Indice Saturation :
 
 ---
 
-## 🏆 Points Techniques pour le Jury
+## 🏆 Points Techniques
 
-### [JURY_CHECK]: REASONING
+### REASONING
 Les agents utilisent le pattern **ReAct** (Reason → Act → Observe) implémenté dans les Backstories :
 ```python
 # Agent Industry Matcher – Raisonnement explicite
@@ -204,17 +204,17 @@ Les agents utilisent le pattern **ReAct** (Reason → Act → Observe) implémen
 # "Je mentionne les écoles marocaines réelles"
 ```
 
-### [JURY_CHECK]: TOOL_USE
+### : TOOL_USE
 Trois outils spécialisés avec citations précises :
 - `pdf_knowledge_search` → ChromaDB + source + page
 - `morocco_market_data` → JSON parser avec rejet automatique des filières saturées
 - `web_search_morocco` → DuckDuckGo (gratuit) + Tavily (premium)
 
-### [JURY_CHECK]: MULTIMODALITY
+### : MULTIMODALITY
 - **Vision** : Analyse de bulletins scolaires marocains (format national)
 - **Audio** : Transcription Darija via Whisper (modèle calibré dialectes maghrébins)
 
-### [JURY_CHECK]: IMPACT MAROC
+###  IMPACT MAROC
 - Salaires **100% en MAD** (aucune valeur en euros)
 - **30+ écoles marocaines** intégrées
 - Messages en **Darija authentique** pour les familles
